@@ -34,3 +34,15 @@
 .table-rows{
   background-color: lightgreen;
 }
+
+
+.pageNumber{
+  border: 2px solid #4fe63b;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  size: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: lightgreen;
+}

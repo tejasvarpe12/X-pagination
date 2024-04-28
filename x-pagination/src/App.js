@@ -73,7 +73,7 @@ const App = () => {
       {/* Render pagination buttons */}
       <div className="pagination">
         <button onClick={prevPage} disabled={currentPage === 1}>Previous</button>
-        <span>Page {currentPage} of {totalPages}</span>
+        <span className='pageNumber'>{currentPage}</span>
         <button onClick={nextPage} disabled={currentPage === totalPages}>Next</button>
       </div>
     </div>
