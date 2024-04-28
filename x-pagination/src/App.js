@@ -34,6 +34,8 @@ const App = () => {
   const prevPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
+    } else {
+      setCurrentPage(1); // Ensure that clicking Previous on the first page takes the user back to the first page
     }
   };
 
