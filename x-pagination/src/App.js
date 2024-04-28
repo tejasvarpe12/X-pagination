@@ -55,7 +55,6 @@ const App = () => {
               <th>Name</th>
               <th>Email</th>
               <th>Role</th>
-              {/* Add more headers as per your data structure */}
             </tr>
           </thead>
           {/* Render table body */}
@@ -66,7 +65,6 @@ const App = () => {
                 <td>{item.name}</td>
                 <td>{item.email}</td>
                 <td>{item.role}</td>
-                {/* Render more data cells as per your data structure */}
               </tr>
             ))}
           </tbody>
